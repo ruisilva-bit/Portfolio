@@ -41,3 +41,85 @@ body{
     margin-top: -30px;
     color: white;
 }
+
+.projects{
+    margin-top: 5em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleOfProjects{
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+.listOfProjects{
+    margin: 1em 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+}
+
+.project{
+    width: 450px;
+    margin: 0.5em;
+    border-radius: 10px;
+    padding: 0.5em;
+    transition: 0.5s;
+    box-shadow: -2px 1px 7px -3px rgba(0,0,0,1);
+-webkit-box-shadow: -2px 1px 7px -3px rgba(0,0,0,1);
+-moz-box-shadow: -2px 1px 7px -3px rgba(0,0,0,1);
+}
+
+.project .text{
+    text-align: center;
+}
+
+.project:hover{
+    box-shadow: -2px 1px 19px -3px rgba(0,0,0,1);
+-webkit-box-shadow: -2px 1px 19px -3px rgba(0,0,0,1);
+-moz-box-shadow: -2px 1px 19px -3px rgba(0,0,0,1);
+}
+
+.project .text a{
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 0.2em 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.project .text a:hover{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 0.2em 1em;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+
+footer h2{
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: black;
+}
