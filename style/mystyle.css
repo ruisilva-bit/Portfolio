@@ -37,6 +37,10 @@ body{
     border: 4px solid white;
 }
 
+.project .image img{
+    border-radius: 0%;
+    width: 400px;
+}
 .title{
     color: white;
     text-align: center;
