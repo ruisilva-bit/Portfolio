@@ -18,7 +18,7 @@ body{
     justify-content: center;
     width: 100%;
     height: 350px;
-    background-image: url("../assets/background.svg");
+    background-color: #27374D;
 }
 
 .image{
@@ -30,6 +30,11 @@ body{
 .image img{
     width: 200px;
     border-radius: 50%;
+
+}
+
+.image .profile{
+    border: 4px solid white;
 }
 
 .title{
